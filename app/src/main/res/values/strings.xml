@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LoginRegisterFragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="judul_page">Create an account</string>
+    <string name="judul_page3">Wellcome back</string>
+    <string name="btn_register">Create</string>
+    <string name="bawah1">Already had an account?</string>
+    <string name="bawah2">LogIn</string>
+    <string name="btn_login">LogIn</string>
+    <string name="bawah3">Doesnt have an account yet?</string>
+    <string name="bawah4">Register</string>
+    <string name="aggreement">By Creating an account, you agree to Application Term of Use and Privacy Policy</string>
+</resources>

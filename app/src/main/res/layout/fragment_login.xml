@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".LoginFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/judul"
+            android:textColor="@color/black"
+            android:text="@string/judul_page3"
+            android:textAlignment="center"
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_marginTop="70dp"
+            android:textSize="28dp"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+            android:id="@+id/layout_username"
+            android:hint="Username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            app:endIconMode="clear_text"
+            android:layout_below="@id/judul">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/inp_username"
+                android:background="@drawable/custom_textfield"
+                android:layout_marginStart="56dp"
+                android:layout_marginEnd="56dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+            android:id="@+id/layout_pwd"
+            android:hint="Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            app:endIconMode="clear_text"
+            android:layout_below="@id/layout_username">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/inp_pwd"
+                android:background="@drawable/custom_textfield"
+                android:layout_marginStart="56dp"
+                android:layout_marginEnd="56dp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lay_check"
+            android:layout_below="@id/layout_pwd"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal"
+            android:id="@+id/lay_medsos"
+            android:layout_below="@+id/lay_check">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/google"
+                android:src="@drawable/search"
+                android:clickable="true"/>
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/instagram"
+                android:src="@drawable/instagram"
+                android:layout_marginStart="32dp"
+                android:clickable="true"/>
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/thereads"
+                android:src="@drawable/threads"
+                android:layout_marginStart="32dp"
+                android:clickable="true"/>
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="320dp"
+            android:layout_height="54dp"
+            android:background="@drawable/custom_button"
+            android:id="@+id/btn_login"
+            android:text="@string/btn_login"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_below="@+id/lay_medsos"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_login"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bawah3"/>
+
+            <TextView
+                android:id="@+id/ke_registrasi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bawah4"
+                android:layout_marginStart="5dp"
+                android:textColor="#0038FF"
+                android:clickable="true"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>

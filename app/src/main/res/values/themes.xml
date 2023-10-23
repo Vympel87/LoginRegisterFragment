@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.LoginRegisterFragment" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/indigo_600</item>
+    </style>
+
+    <!-- Base application theme with ActionBar. -->
+    <style name="Base.Theme.LoginRegisterFragment.WithActionBar" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here, similar to the theme without ActionBar. -->
+         <item name="colorPrimary">@color/indigo_600</item>
+    </style>
+
+    <!-- Themes that can be applied to the application or specific activities. -->
+    <style name="Theme.LoginRegisterFragment" parent="Base.Theme.LoginRegisterFragment" />
+    <style name="Theme.LoginRegisterFragment.WithActionBar" parent="Base.Theme.LoginRegisterFragment.WithActionBar" />
+
+</resources>
